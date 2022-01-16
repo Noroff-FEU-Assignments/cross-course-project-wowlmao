@@ -2,7 +2,7 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav a, nav, h1 {
+nav a, nav, h1, div a {
     color: white;
 }
 
@@ -12,11 +12,32 @@ header {
     margin: 0px;
 }
 
- .domain-store {
-     min-height: 400px; 
- }
-
  footer {
      padding: 50px;
      float: left;
  }
+
+ h3 {
+     padding: 25px; 
+     background-color: #1d2540;
+     text-align: center;
+ }
+
+.logophoto_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+.storephotos {
+    max-height: 450px;
+    padding: 10px;
+    border: 3px solid #1d2540; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    padding-top: 100px;
+}
